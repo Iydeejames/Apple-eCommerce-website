@@ -960,7 +960,9 @@ flex-direction: column;
         width: 25%;
         height: 90%;
         object-fit: contain;
-
+        margin-top: 17rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
     }
   
     .airpods-buttons {
