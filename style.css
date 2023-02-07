@@ -955,6 +955,13 @@ flex-direction: column;
     .section-5-heading {
         font-size: 6rem;
       }
+
+      .airpods img{
+        width: 25%;
+        height: 90%;
+        object-fit: contain;
+
+    }
   
     .airpods-buttons {
       width: 50rem;
