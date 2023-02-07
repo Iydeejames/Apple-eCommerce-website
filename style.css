@@ -847,6 +847,32 @@ flex-direction: column;
     .logo i {
       font-size: 8rem;
     }
+
+    .controls {
+        display: none;
+      }
+    
+      .cube-wrapper {
+        opacity: 0.9;
+      }
+    
+      .cube {
+        top: 3rem;
+      }
+    
+      .section-1-banner {
+        position: absolute;
+      }
+    
+      .section-1-banner h1 {
+        position: relative;
+        left: -5rem;
+      }
+    
+      .section-1-banner h1::first-letter {
+        visibility: hidden;
+        opacity: 0;
+      }
   
     .section-1-banner button:hover {
       clip-path: polygon(
@@ -889,7 +915,7 @@ flex-direction: column;
     .airpods-buttons{
         border: none;
         display: flex;
-        margin: 20% -10%;
+        margin: 20% -18%;
     }
   
     .icons img{
@@ -898,6 +924,7 @@ flex-direction: column;
   }
 
   @media (max-width: 550px) {
+
     .navbar-link {
       margin: 0 1.5rem;
     }
@@ -919,11 +946,15 @@ flex-direction: column;
       height: 3rem;
       font-size: 1.3rem;
     }
+
+    .section-5-heading {
+        font-size: 6rem;
+      }
   
     .airpods-buttons {
       width: 50rem;
       text-align: center;
-      margin: 20% -12%;
+     /* margin: 20% -12%; */
     }
   
     .icons img {
@@ -972,6 +1003,10 @@ flex-direction: column;
       font-size: 2rem;
       font-weight: 300;
     }
+
+    .section-5-heading {
+        font-size: 6rem;
+      }
   
     .icons img {
       width: 6rem;
