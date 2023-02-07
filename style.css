@@ -21,6 +21,11 @@ html{
     --black-color: #000;
 }
 
+.container{
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .center{
     display: flex;
     justify-content: center;
@@ -716,11 +721,11 @@ flex-direction: column;
   .section-5{
     background-color: var(--primary-color);
     width: 100%;
-    height: 110vh;
+    height: 90vh;
 }
 
 .airpods{
-    width: 90%;
+    width: 80%;
     height: 80%;
     display: flex;
     position: relative;
